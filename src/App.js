@@ -1,9 +1,11 @@
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header />
+      {/* <header className="App-header">
         <p>
           Welcome To Mealigo
         </p>
@@ -15,7 +17,7 @@ function App() {
         >
           Download Mealigo App
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
