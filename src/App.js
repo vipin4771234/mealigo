@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <header className="App-header">
-        <p>
+      <header className="App-header">
+        <p style={{color:'black'}}>
           Welcome To Mealigo
         </p>
         <a
@@ -17,7 +17,7 @@ function App() {
         >
           Download Mealigo App
         </a>
-      </header> */}
+      </header>
     </div>
   );
 }
